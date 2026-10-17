@@ -1,4 +1,3 @@
-```javascript
 import "./style.css";
 
 const pages = [
@@ -51,13 +50,9 @@ function navLink(page) {
       data-page="${page[0]}">
       <span class="nav-icon">${page[2]}</span>
       <span>${page[1]}</span>
+      ${page[0] === "notifications" ? '<span class="nav-dot"></span>' : ""}
     </button>
   `;
-}
-
-      <span>${page[1]}</span>
-      ${page[0] === "notifications" ? '<span class="nav-dot"></span>' : ""}
-    </button>`;
 }
 
 function marketRows() {
@@ -241,4 +236,3 @@ function showToast(message) {
 }
 
 render();
-```
