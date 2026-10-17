@@ -1,4 +1,4 @@
-```json
+
 {
   "name": "aurumtrade-platform",
   "private": true,
@@ -16,4 +16,3 @@
     "vite": "^7.1.7"
   }
 }
-```
