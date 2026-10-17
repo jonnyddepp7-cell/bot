@@ -46,7 +46,7 @@ function escapeHtml(value) {
 
 function navLink(page) {
   return `
-    <button class="nav-link ${activePage === page[0] ? "active" : ""}"
+    <button class="nav-link ${activePage === page[0] ? 'active' : ''}"
       data-page="${page[0]}">
       <span class="nav-icon">${page[2]}</span>
       <span>${page[1]}</span>
